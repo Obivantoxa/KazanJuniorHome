@@ -7,6 +7,8 @@ public class Main1 {
             System.out.println("chetnoe");
         } else {
             System.out.println("ne chetnoe");
+            System.out.println("ne chetnoe");
+
         }
     }
 }
