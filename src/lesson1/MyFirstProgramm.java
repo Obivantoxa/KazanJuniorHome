@@ -30,6 +30,7 @@ public class MyFirstProgramm {
 
         System.out.println(perimetr);
 
+
         /**
          * 1 включается компилятор(который переводит код в байт код в папке out)
          * 2 запускаем байт код в jvm
