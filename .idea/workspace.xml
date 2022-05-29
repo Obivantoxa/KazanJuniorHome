@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3d0ba1d-9634-4b4d-89c0-6a3d50a0be89" name="Changes" comment="new Kazan lesson 1">
-      <change afterPath="$PROJECT_DIR$/src/lesson1/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Main6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Main7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Main8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f3d0ba1d-9634-4b4d-89c0-6a3d50a0be89" name="Changes" comment="new Kazan lesson 2-3 HomeWork">
+      <change afterPath="$PROJECT_DIR$/src/lesson2/HomeWork2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson1/MyFirstProgramm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson1/MyFirstProgramm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +39,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.Main8">
-    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.Main4" />
+  <component name="RunManager" selected="Application.HomeWork2">
+    <configuration name="HomeWork2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2.HomeWork2" />
       <module name="KazanJuniorHome" />
       <extension name="coverage">
         <pattern>
@@ -119,24 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWork2" />
         <item itemvalue="Application.Main8" />
         <item itemvalue="Application.Main7" />
         <item itemvalue="Application.Main6" />
         <item itemvalue="Application.Main5" />
-        <item itemvalue="Application.Main4" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +153,9 @@
       <workItem from="1653408593441" duration="472000" />
       <workItem from="1653494940555" duration="2634000" />
       <workItem from="1653498197162" duration="38000" />
+      <workItem from="1653816064500" duration="2726000" />
+      <workItem from="1653823097573" duration="786000" />
+      <workItem from="1653846046110" duration="2386000" />
     </task>
     <task id="LOCAL-00001" summary="new Kazan lesson 1">
       <created>1653330494573</created>
@@ -213,7 +212,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new Kazan lesson 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="new Kazan lesson 1" />
+    <MESSAGE value="new Kazan lesson 2-3 HomeWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="new Kazan lesson 2-3 HomeWork" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
