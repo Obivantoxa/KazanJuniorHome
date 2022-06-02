@@ -39,6 +39,7 @@ public class HomeWork2 {
         for (double i = 9500.0; i <= 200000.0; i += 9500) {
             let++;
 
+
         }
         System.out.println(let);
         System.out.println("5------------");
@@ -63,8 +64,7 @@ public class HomeWork2 {
         int numNeChet = 0;
         int[] num = new int[100];
         for (int i = 0; i < num.length; i++) {
-            num[i] = ((int) (Math.random() * 999) +1);
-
+            num[i] = (int)(Math.random() * 1000);
             numCount++;
             if (num[i] % 2 == 0) {
                 numChet++;
