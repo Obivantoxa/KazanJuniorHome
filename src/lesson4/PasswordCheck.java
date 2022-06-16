@@ -1,9 +1,9 @@
 package lesson4;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class PasswordCheck {
-
     /*
      2)проверить пароль
           2.1) пароль не должен соответствовать почте
@@ -33,41 +33,36 @@ public class PasswordCheck {
                 break;
             }
         }
-        if (resultIsUpper==false) { //   2.3) одна заглавная
+        if (resultIsUpper == false) { //   2.3) одна заглавная
             System.out.println("Your password don't have Uppercase characters ");
         }
-
     }
-
-    public static void charCheckPass(String password){ // 2.4) один символ
+    public static void charCheckPass(String password) { // 2.4) один символ
         String inputPassword = password;
         String specialCharactersString = "!@#$%&*()'+,-./:;<=>?[]^_`{|}";
-        for (int i=0; i < inputPassword.length() ; i++)
-        {
+        for (int i = 0; i < inputPassword.length(); i++) {
             char ch = inputPassword.charAt(i);
-            if(specialCharactersString.contains(Character.toString(ch))) {
-                System.out.println(inputPassword+ " contains special character");
+            if (specialCharactersString.contains(Character.toString(ch))) {
+                System.out.println(inputPassword + " contains special character");
                 break;
-            }
-            else if(i == inputPassword.length()-1)
-                System.out.println(inputPassword+ " does NOT contain special character");
+            } else if (i == inputPassword.length() - 1)
+                System.out.println(inputPassword + " does NOT contain special character");
         }
     }
-
-    public static void engPassCheck(String password){
+    public static void engPassCheck(String password) {
 
         boolean onlyLatinAlphabet = password.matches("^[a-zA-Z0-9]+$");
 
-        if (onlyLatinAlphabet==false){
+        if (onlyLatinAlphabet == false) {
             System.out.println("Password must  contains only eng letters");
+        } else {
+            System.out.println("Password have ONLY eng letters ");
         }
 
     }
-
-    public static void povtor(String password){
+    public static void povtor(String password) {
         String text = password;
         int maxLen = 0;
-
         Matcher m = Pattern.compile("(.)\\1+").matcher(text);
         while (m.find()) {
             String sub = m.group();
@@ -76,13 +71,11 @@ public class PasswordCheck {
                 maxLen = sub.length();
             }
         }
-        if (maxLen>=3){
+        if (maxLen >= 3) {
             System.out.println("You have entered three identical characters in a row.");
         }
-
-       // System.out.println("\nmaxLen: " + maxLen);
+        // System.out.println("\nmaxLen: " + maxLen);
     }
-
 
 
 }
