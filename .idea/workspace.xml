@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3d0ba1d-9634-4b4d-89c0-6a3d50a0be89" name="Changes" comment="new Kazan lesson 4&#10;02.06.2022">
-      <change afterPath="$PROJECT_DIR$/src/lesson4/CalkUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson4/MainCalk.java" afterDir="false" />
+    <list default="true" id="f3d0ba1d-9634-4b4d-89c0-6a3d50a0be89" name="Changes" comment=" Kazan lesson 4 - homework&#10;16.06.2022">
+      <change afterPath="$PROJECT_DIR$/src/lesson5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson5/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson5/Sircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson5/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson4/HomeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/HomeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson4/PasswordCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/PasswordCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <recent name="lesson4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainCalk">
+  <component name="RunManager" selected="Application.Main1">
     <configuration name="DogSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson4.DogSplit" />
       <module name="KazanJuniorHome" />
@@ -94,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.HomeWork4" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson5.Main" />
       <module name="KazanJuniorHome" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.Main1" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson5.Main1" />
       <module name="KazanJuniorHome" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,24 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainCalk" />
         <item itemvalue="Application.HomeMain" />
         <item itemvalue="Application.DogSplit" />
-        <item itemvalue="Application.HomeWork4" />
-        <item itemvalue="Application.Main1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +193,8 @@
       <workItem from="1654349140206" duration="12174000" />
       <workItem from="1654536401395" duration="3071000" />
       <workItem from="1654542391855" duration="14400000" />
-      <workItem from="1655392442493" duration="1639000" />
+      <workItem from="1655392442493" duration="3542000" />
+      <workItem from="1655397060387" duration="4680000" />
     </task>
     <task id="LOCAL-00001" summary="new Kazan lesson 1">
       <created>1653330494573</created>
@@ -249,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654548885336</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=" Kazan lesson 4 - homework&#10;16.06.2022">
+      <created>1655395247493</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655395247493</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +281,8 @@
     <MESSAGE value="new Kazan lesson 1" />
     <MESSAGE value="new Kazan lesson 2-3 HomeWork" />
     <MESSAGE value="new Kazan lesson 4&#10;02.06.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="new Kazan lesson 4&#10;02.06.2022" />
+    <MESSAGE value=" Kazan lesson 4 - homework&#10;16.06.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Kazan lesson 4 - homework&#10;16.06.2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
