@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3d0ba1d-9634-4b4d-89c0-6a3d50a0be89" name="Changes" comment=" Kazan lesson 4 - homework&#10;16.06.2022">
-      <change afterPath="$PROJECT_DIR$/src/lesson5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson5/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson5/Sircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson5/Triangle.java" afterDir="false" />
+    <list default="true" id="f3d0ba1d-9634-4b4d-89c0-6a3d50a0be89" name="Changes" comment=" Kazan lesson 5&#10;16.06.2022">
+      <change afterPath="$PROJECT_DIR$/src/lesson5/FiguraUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson5/ScannerUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson5/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson5/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="sshConsole" />
   </component>
   <component name="RecentsManager">
@@ -133,15 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -194,7 +195,8 @@
       <workItem from="1654536401395" duration="3071000" />
       <workItem from="1654542391855" duration="14400000" />
       <workItem from="1655392442493" duration="3542000" />
-      <workItem from="1655397060387" duration="4680000" />
+      <workItem from="1655397060387" duration="4707000" />
+      <workItem from="1655405648940" duration="6254000" />
     </task>
     <task id="LOCAL-00001" summary="new Kazan lesson 1">
       <created>1653330494573</created>
@@ -259,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655395247493</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=" Kazan lesson 5&#10;16.06.2022">
+      <created>1655401825109</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655401825109</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +291,8 @@
     <MESSAGE value="new Kazan lesson 2-3 HomeWork" />
     <MESSAGE value="new Kazan lesson 4&#10;02.06.2022" />
     <MESSAGE value=" Kazan lesson 4 - homework&#10;16.06.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Kazan lesson 4 - homework&#10;16.06.2022" />
+    <MESSAGE value=" Kazan lesson 5&#10;16.06.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Kazan lesson 5&#10;16.06.2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -295,6 +305,11 @@
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lesson5/Triangle.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
