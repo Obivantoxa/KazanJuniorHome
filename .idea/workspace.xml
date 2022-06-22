@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3d0ba1d-9634-4b4d-89c0-6a3d50a0be89" name="Changes" comment=" Kazan lesson 5&#10;16.06.2022">
-      <change afterPath="$PROJECT_DIR$/src/lesson5/FiguraUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson5/ScannerUtils.java" afterDir="false" />
+    <list default="true" id="f3d0ba1d-9634-4b4d-89c0-6a3d50a0be89" name="Changes" comment=" Kazan lesson 5 homework&#10;16.06.2022">
+      <change afterPath="$PROJECT_DIR$/src/lesson5/hw/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/BlackJack/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/BlackJack/Koloda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/BlackJack/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/BlackJack/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/shop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/shop/Otziv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/shop/Tovar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson5/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/Main1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson5/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,19 +71,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="lesson6.shop" />
       <recent name="lesson4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nekr\IdeaProjects\KazanJuniorHome\src\lesson5\hw" />
+      <recent name="C:\Users\Nekr\IdeaProjects\KazanJuniorHome\src\lesson5" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="lesson4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main1">
-    <configuration name="DogSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.DogSplit" />
+  <component name="RunManager" selected="Application.Main (4)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.shop.Main" />
       <module name="KazanJuniorHome" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson6.shop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.HomeMain" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.BlackJack.Main" />
       <module name="KazanJuniorHome" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson6.BlackJack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson5.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson5.hw.Main" />
       <module name="KazanJuniorHome" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson5.*" />
+          <option name="PATTERN" value="lesson5.hw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.hw.Main" />
+      <module name="KazanJuniorHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson6.hw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,37 +148,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainCalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.MainCalk" />
-      <module name="KazanJuniorHome" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainCalk" />
-        <item itemvalue="Application.HomeMain" />
-        <item itemvalue="Application.DogSplit" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +210,9 @@
       <workItem from="1654542391855" duration="14400000" />
       <workItem from="1655392442493" duration="3542000" />
       <workItem from="1655397060387" duration="4707000" />
-      <workItem from="1655405648940" duration="6254000" />
+      <workItem from="1655405648940" duration="6459000" />
+      <workItem from="1655740347653" duration="8181000" />
+      <workItem from="1655748724421" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="new Kazan lesson 1">
       <created>1653330494573</created>
@@ -268,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655401825109</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary=" Kazan lesson 5 homework&#10;16.06.2022">
+      <created>1655412067784</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655412067784</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +315,8 @@
     <MESSAGE value="new Kazan lesson 4&#10;02.06.2022" />
     <MESSAGE value=" Kazan lesson 4 - homework&#10;16.06.2022" />
     <MESSAGE value=" Kazan lesson 5&#10;16.06.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Kazan lesson 5&#10;16.06.2022" />
+    <MESSAGE value=" Kazan lesson 5 homework&#10;16.06.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Kazan lesson 5 homework&#10;16.06.2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -305,11 +329,6 @@
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lesson5/Triangle.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

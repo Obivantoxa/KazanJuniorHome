@@ -67,7 +67,7 @@ public class Triangle {
         }
         if (flag != "") {
             System.out.println("треугольника такого не существует потому что:");
-            System.out.printf("%s > суммы других", flag);
+            System.out.printf("%s > суммы других сторон ", flag);
             System.out.println();
         } else
             return true;
