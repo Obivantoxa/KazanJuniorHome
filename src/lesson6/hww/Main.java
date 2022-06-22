@@ -1,4 +1,4 @@
-package lesson6.hw;
+package lesson6.hww;
 
 public class Main {
 	

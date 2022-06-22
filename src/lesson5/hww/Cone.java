@@ -1,4 +1,4 @@
-package lesson5.hw;
+package lesson5.hww;
 
 public class Cone {
 	

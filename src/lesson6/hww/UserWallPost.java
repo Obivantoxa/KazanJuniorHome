@@ -1,4 +1,4 @@
-package lesson6.hw;
+package lesson6.hww;
 
 import java.util.Arrays;
 
@@ -7,7 +7,7 @@ public class UserWallPost {
 	private String name;
 	private String lastName;
 	private String wallPost;
-	
+
 	private CommentPost[] userCommentPost = new CommentPost[5];
 	
 	public UserWallPost(String name, String lastName, String wallPost) {
