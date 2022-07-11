@@ -3,16 +3,19 @@ package lesson6.BlackJack;
 public class Main {
     public static void main(String[] args) {
 
-        Koloda koloda = new Koloda();
+        Diller d = new Diller();
+        Player player1 = new Player();
 
-        Player player1 = new Player(koloda.getsRandomCard(),koloda.getsRandomCard());
+        Game blackdjek = new Game(d);
+        blackdjek.addPlayer(player1);
 
-        player1.vskritie();
-        player1.addKart(koloda.getsRandomCard());
+        blackdjek.addTwoKartaToPlayer();
+       // blackdjek.addTwoKartaToPlayer(player1);
+
+        blackdjek.needMoreKarta();
 
 
-
-
+        blackdjek.printToWin();
 
     }
 
