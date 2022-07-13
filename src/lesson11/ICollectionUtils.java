@@ -1,6 +1,7 @@
 package lesson11;
 
 import java.util.Collection;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -36,7 +37,7 @@ public interface ICollectionUtils {
 	 * 
 	 * @param a первая коллекция
 	 * @param b вторая коллекция
-	 * @return новая колекция содержащая объединение a и b без дубликатов 
+	 * @return новая колекция содержащая объединение a и b без дубликатов
 	 * @throws NullPointerException если a или b == null
 	 */
 	Set<Integer> unionWithoutDuplicate (Collection<Integer> a, Collection<Integer> b) throws NullPointerException;
