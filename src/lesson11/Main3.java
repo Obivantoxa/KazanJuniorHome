@@ -18,10 +18,11 @@ public class Main3 {
             System.out.println(money);
         }
         System.out.println();
-        for (Iterator<Money> iter = monies.iterator(); iter.hasNext();){
+        for (Iterator<Money> iter = monies.iterator(); iter.hasNext(); ) {
             System.out.println(iter.next());
 
         }
+
 
         //System.out.println(monies);
 
