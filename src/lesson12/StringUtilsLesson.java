@@ -1,5 +1,10 @@
 package lesson12;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class StringUtilsLesson implements StringUtils {
 
     @Override
@@ -16,11 +21,49 @@ public class StringUtilsLesson implements StringUtils {
         ret = n1 / n2;
         return ret;
     }
-
+    /**
+     * Ищет все вхождения слова <b>word</b> в тексте <b>text</b> и возвращает массив индексов слов
+     *
+     * @param text исходный текст
+     * @param word искомое слово
+     * @return масив индексов каждого вхождения слова
+     * @throws NullPointerException
+     */
     @Override
-    public int[] findWord(String text, String word) throws NullPointerException {
-        return new int[0];
+    public String[] findWord(String text, String word) throws NullPointerException {
+        if (text == null || word == null) {
+            throw new NullPointerException("text == null || word == null");
+        }
+        String[] textMassiv = text.split(" ");
+        for (int i = 0; i<textMassiv.length;i++){
+
+        }
+
+//        List<String> keyWords = new ArrayList<>();
+//        List<String> howManyWords = new ArrayList<>();
+//        keyWords.add(word);
+//
+//        String words = new String();
+//        String patternString = "\\b(" + String.join("|", keyWords) + ")\\b";
+//        Pattern pattern = Pattern.compile(patternString);
+//        Matcher matcher = pattern.matcher(text);
+//
+//        while (matcher.find()) {
+//            words = matcher.group(1);
+//            howManyWords.add(words);
+//
+//        }
+//        if (howManyWords.isEmpty()){
+//            throw new NullPointerException("Текст не содержет требуемого слова \"" + word + "\"");
+//        }
+//        String[] result = new String[howManyWords.size()];
+//        for (int i = 0; i < result.length; i++) {
+//            result[i] = howManyWords.get(i);
+//        }
+//        return result;
+        return textMassiv;
     }
+
 
     @Override
     public double[] findNumbers(String text) throws CustomException {

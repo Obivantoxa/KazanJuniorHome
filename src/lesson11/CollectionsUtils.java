@@ -75,13 +75,11 @@ public class CollectionsUtils implements ICollectionUtils {
         for (Integer num : a) {
             if (!b.contains(num)) {
                 difference.add(num);
-
             }
         }
         for (Integer num : b) {
             if (!a.contains(num)) {
                 difference.add(num);
-
             }
         }
         return difference;
