@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3d0ba1d-9634-4b4d-89c0-6a3d50a0be89" name="Changes" comment=" Kazan lesson 12 &#10;14.07.2022">
-      <change afterPath="$PROJECT_DIR$/src/lesson13/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson13/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson13/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson13/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson13/homeWork/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson13/homeWork/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson13/homeWork/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson13/homeWork/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson13/homeWork/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson13/homeWork/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson11/CollectionsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson11/CollectionsUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson12/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson12/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson12/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson12/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson12/StringUtilsLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson12/StringUtilsLesson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +67,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="lesson13.homeWork" />
       <recent name="lesson7.hw" />
       <recent name="lesson6.shop" />
       <recent name="lesson4" />
@@ -79,17 +78,30 @@
       <recent name="C:\Users\Nekr\IdeaProjects\KazanJuniorHome\src\lesson8" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nekr\IdeaProjects\KazanJuniorHome\src\lesson13\homeWork" />
       <recent name="C:\Users\Nekr\IdeaProjects\KazanJuniorHome\src\lesson12" />
       <recent name="C:\Users\Nekr\IdeaProjects\KazanJuniorHome\src\lesson10" />
       <recent name="C:\Users\Nekr\IdeaProjects\KazanJuniorHome\src\lesson6\hw" />
       <recent name="C:\Users\Nekr\IdeaProjects\KazanJuniorHome\src\lesson5\hw" />
-      <recent name="C:\Users\Nekr\IdeaProjects\KazanJuniorHome\src\lesson5" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="lesson4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main1">
+  <component name="RunManager" selected="Application.HashMapTest">
+    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson13.homeWork.HashMapTest" />
+      <module name="KazanJuniorHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson13.homeWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson13.Main" />
       <module name="KazanJuniorHome" />
@@ -129,19 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson11.Main2" />
-      <module name="KazanJuniorHome" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson12.Main3" />
       <module name="KazanJuniorHome" />
@@ -155,26 +154,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapTest" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main2 (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main3 (1)" />
-        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +235,7 @@
       <workItem from="1657857002103" duration="4557000" />
       <workItem from="1657956858955" duration="4098000" />
       <workItem from="1658158410859" duration="6926000" />
+      <workItem from="1658342327411" duration="1688000" />
     </task>
     <task id="LOCAL-00001" summary="new Kazan lesson 1">
       <created>1653330494573</created>
