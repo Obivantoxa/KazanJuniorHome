@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3d0ba1d-9634-4b4d-89c0-6a3d50a0be89" name="Changes" comment=" Kazan lesson 12 &#10;14.07.2022">
-      <change afterPath="$PROJECT_DIR$/src/lesson13/homeWork/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson13/homeWork/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson13/homeWork/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson13/homeWork/HashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson13/homeWork/Parrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson13/homeWork/Person.java" afterDir="false" />
+    <list default="true" id="f3d0ba1d-9634-4b4d-89c0-6a3d50a0be89" name="Changes" comment=" Kazan lesson 13 - homeWork&#10;20.07.2022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson13/homeWork/HashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson13/homeWork/HashMapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +230,7 @@
       <workItem from="1657857002103" duration="4557000" />
       <workItem from="1657956858955" duration="4098000" />
       <workItem from="1658158410859" duration="6926000" />
-      <workItem from="1658342327411" duration="1688000" />
+      <workItem from="1658342327411" duration="3364000" />
     </task>
     <task id="LOCAL-00001" summary="new Kazan lesson 1">
       <created>1653330494573</created>
@@ -363,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657821674804</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary=" Kazan lesson 13 - homeWork&#10;20.07.2022">
+      <created>1658344244891</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658344244891</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +395,8 @@
     <MESSAGE value=" Kazan lesson 7 -homework&#10;27.06.2022" />
     <MESSAGE value=" Kazan lesson 11 -homework&#10;13.07.2022&#10;collection home work" />
     <MESSAGE value=" Kazan lesson 12 &#10;14.07.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Kazan lesson 12 &#10;14.07.2022" />
+    <MESSAGE value=" Kazan lesson 13 - homeWork&#10;20.07.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Kazan lesson 13 - homeWork&#10;20.07.2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

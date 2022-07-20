@@ -23,11 +23,11 @@ public class HashMapTest {
                 new Dog("Reks",23),
                 new Parrot("Kesha","Africa")
         ));
-        map2.put(new Person("Anastasiya"),Arrays.asList(
+        map2.put(new Person("Dina"),Arrays.asList(
                 new Cat("Mashka","Black"),
                 new Cat("Moska","White"),
                 new Cat("puska","White"),
-                new Cat("buska","brown")
+                new Cat("fas","brown")
         ));
         System.out.println("************");
 
