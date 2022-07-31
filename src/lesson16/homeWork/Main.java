@@ -1,6 +1,6 @@
 package lesson16.homeWork;
 
-import lesson16.Pevec2;
+
 import org.apache.log4j.Logger;
 
 public class Main {
@@ -23,12 +23,12 @@ public class Main {
         pevec1.setName(" Поток 1 ");
         pevec2.setName(" Поток 2 ");
         pevec3.setName(" Поток 3 ");
-        pevec1.setDaemon(true);
+        pevec3.setDaemon(true);
         System.out.println("hellow start");
         pevec1.start();
         pevec2.start();
         pevec3.start();
-        while (pevec2.isAlive()) {
+        while (pevec1.isAlive()) {
 
         }
         System.out.println("finish!!!");

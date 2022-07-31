@@ -7,14 +7,16 @@ public class Pevec2 extends Thread {
     private static final Logger LOGGER = Logger.getLogger(Pevec2.class);
     public void run() {
         while (true) {
-           // LOGGER.info("сейчас активный поток" + Thread.currentThread().getName());
+
             synchronized (Monitor.MIKROFON) {
                 try {
                     Monitor.MIKROFON.wait();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
+
             }
+            LOGGER.info("сейчас активный поток" + Thread.currentThread().getName());
             for (int i = 0; i < 3; i++) {
                 System.out.println("--------------PaPa");
                 try {

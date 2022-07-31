@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3d0ba1d-9634-4b4d-89c0-6a3d50a0be89" name="Changes" comment=" Kazan lesson 13 - homeWork&#10;20.07.2022">
-      <change afterPath="$PROJECT_DIR$/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson14/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson14/Obzor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson14/Otziv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson14/SortTovarRateFromTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson14/SortTovars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson14/Tovar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/Pevec1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/Pevec2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/Vedushiy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/homeWork/Pevec1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/homeWork/Pevec2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/homeWork/Pevec3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KazanJuniorHome.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KazanJuniorHome.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson16/Pevec2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson16/Pevec22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson16/Vedushiy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson16/Vedushiy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson16/homeWork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson16/homeWork/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson16/homeWork/Pevec2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson16/homeWork/Pevec2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson16/homeWork/Pevec3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson16/homeWork/Pevec3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +55,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lesson16/homeWork" />
@@ -128,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson16.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson14.Main" />
       <module name="KazanJuniorHome" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson16.*" />
+          <option name="PATTERN" value="lesson14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +131,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson14.Main" />
+      <option name="MAIN_CLASS_NAME" value="lesson16.Main" />
       <module name="KazanJuniorHome" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson14.*" />
+          <option name="PATTERN" value="lesson16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,6 +246,7 @@
       <workItem from="1659023833289" duration="6639000" />
       <workItem from="1659165926224" duration="3507000" />
       <workItem from="1659180175613" duration="3995000" />
+      <workItem from="1659255495669" duration="2424000" />
     </task>
     <task id="LOCAL-00001" summary="new Kazan lesson 1">
       <created>1653330494573</created>
@@ -398,7 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658346047543</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary=" Kazan lesson 13 - homeWork&#10;20.07.2022">
+      <created>1659255631681</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659255631681</updated>
+    </task>
+    <task id="LOCAL-00022" summary=" Kazan lesson 13 - homeWork&#10;20.07.2022">
+      <created>1659255699050</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659255699050</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

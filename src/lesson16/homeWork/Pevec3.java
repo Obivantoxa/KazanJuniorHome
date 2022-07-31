@@ -15,7 +15,7 @@ public class Pevec3 extends Thread {
                     e.printStackTrace();
                 }
             }
-           // LOGGER.info("сейчас активный поток" + Thread.currentThread().getName());
+            LOGGER.info("сейчас активный поток" + Thread.currentThread().getName());
             for (int i = 0; i < 3; i++) {
 
                 System.out.println("--------------KEKE");
@@ -25,7 +25,7 @@ public class Pevec3 extends Thread {
                     e.printStackTrace();
                 }
             }
-           // LOGGER.info("сейчас  поток" + Thread.currentThread().getName() + "Спит");
+            LOGGER.info("сейчас  поток" + Thread.currentThread().getName() + "Спит");
             synchronized (Monitor.MIKROFON) {
 
                 Monitor.MIKROFON.notify();

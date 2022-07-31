@@ -1,6 +1,6 @@
 package lesson16;
 
-public class Pevec2 extends Thread {
+public class Pevec22 extends Thread {
     public void run() {
         while (true) {
             synchronized (Monitor.MIKROFON) {

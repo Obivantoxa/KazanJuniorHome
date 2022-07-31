@@ -8,7 +8,7 @@ public class Vedushiy {
     public static void main(String[] args) {
 
         Pevec1 pevec1 = new Pevec1();
-        Pevec2 pevec2 = new Pevec2();
+        Pevec22 pevec2 = new Pevec22();
         pevec2.setDaemon(true);
         System.out.println("hellow start");
          pevec1.start();
